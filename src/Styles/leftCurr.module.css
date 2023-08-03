@@ -1,0 +1,29 @@
+
+.curriculumDiv {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+.curriculumFoto {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+.curriculumDots {
+    font-size: 22px;
+    width: 80%;
+    margin:  0px 0px 25px 10%;
+    overflow-x: hidden;
+    color: #004AAD;
+    justify-content: center;
+  }
+  
+.qrConteiner {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .qrCode {
+    width: 60%;
+  
+  }

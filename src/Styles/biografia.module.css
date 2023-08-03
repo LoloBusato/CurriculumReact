@@ -1,0 +1,10 @@
+
+.curriculumTexto {
+    text-decoration: none;
+    width: 80%;
+    margin: 10px auto;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.08em;
+    line-height: 24px;
+    text-transform: none;
+  }

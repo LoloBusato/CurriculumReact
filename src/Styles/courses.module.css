@@ -1,0 +1,13 @@
+
+.curriculumParrafoLenguaje {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    letter-spacing: 0.08em;
+  }
+  .curriculumParrafoLenguaje p {
+    margin: 4px 0px;
+  }
+  .curriculumParrafoLenguaje p:first-of-type {
+    font-size: 15px;
+  }

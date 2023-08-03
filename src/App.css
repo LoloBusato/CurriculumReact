@@ -1,0 +1,49 @@
+
+#root {
+  margin: 0 auto;
+  background-color: #F1F6F9;
+  width: 790px;
+  font-size: medium;
+}
+body {
+  background-color: gray;
+}
+/* Container Div Styles */
+.curriculum {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Container Left seccion styles */
+.curriculumIzq{
+  background-color: #9AADCF;
+  width: 40%;
+  height: 1122px;
+}
+
+/* Container right seccion styles */
+.curriculumDer{
+  color: black;
+  padding: 0px;
+  width: 60%;
+  height: 1122px;
+}
+
+/* Container courses seccion styles */
+.divCursos{
+  margin: 0px;
+  height: 1102px;
+  padding-top: 20px;
+}
+
+.mgt40 {
+  margin-top: 20px;
+}
+.mgt20 {
+  margin-top: 20px;
+}
+.w100 {
+  width: 100%;
+}

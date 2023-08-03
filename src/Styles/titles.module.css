@@ -1,0 +1,19 @@
+.curriculumTitle {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  color: #004AAD;
+}
+.curriculumTitle h2 {
+  margin: 0px 0px 0px 20px;
+}
+.arrowBox {
+  width: 10px;
+}
+.arrow {
+  margin-top: 3px;
+  transform: rotate(90deg);
+  border-bottom: 16px solid #004AAD;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
