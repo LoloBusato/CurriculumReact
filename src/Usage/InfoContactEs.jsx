@@ -1,7 +1,6 @@
 import React from 'react'
 import { ContactoInfo } from '../Functions/ContactoInfo'
 import { Titles } from '../Functions/Titles'
-import styles from '../Styles/contact.module.css'
 
 
 const objInfoContacto = [
@@ -13,14 +12,8 @@ const objInfoContacto = [
 
 export const InfoContactEs = () => {
   return (
-    <div className={styles.parrafo2} id="parrafo-2">
+    <div id="parrafo-2" className='mt-4'>
           <Titles text="CONTACTO" />
-          <div className={styles.curriculumContacto}>
-              <p><b>Edad:</b> 20 años</p>
-          </div>
-          <div className={styles.curriculumContacto}>
-              <p><b>DNI:</b> 43.917.585</p>
-          </div>
           {objInfoContacto.map(({ info, img1, img2, href }) => <ContactoInfo info={info} img1={img1} img2={img2} href={href} />)}
       </div>
   )

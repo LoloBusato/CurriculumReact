@@ -8,7 +8,6 @@ function App() {
     <div className="curriculum">
       <LeftCurrContainer />
       <RightCurrContainer />
-      <CoursesContainer />
     </div>
   )
 }

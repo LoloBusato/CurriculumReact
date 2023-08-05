@@ -1,8 +1,7 @@
 import React from 'react'
-import styles from '../Styles/biografia.module.css'
 
 export const Paragraph = ({ text }) => {
   return (
-    <p className={styles.curriculumTexto}>{text}</p>
+    <p className='my-1 ml-10 mr-8 text-left'>{text}</p>
   )
 }

@@ -1,20 +1,20 @@
 import React from 'react'
 import { InfoBiografiaEs } from '../Usage/InfoBiografiaEs'
 import { InfoContactEs } from '../Usage/InfoContactEs'
-import styles from '../Styles/leftCurr.module.css'
+import { InfoIdiomasEs } from '../Usage/InfoIdiomasEs'
 
 
 export const LeftCurrContainer = () => {
   return (
-    <div className="curriculumIzq">
-        <div className={styles.curriculumDiv}>
-            <img className={styles.curriculumFoto} src="src\Pictures\ProfilePicture.jpg" alt="Foto de perfil" />
+    <div className="curriculumIzq w-2/5 bg-indigo-300">
+        <div className='w-3/4 mx-auto'>
+            <img className='w-full my-4' src="src\Pictures\ProfilePicture.jpg" alt="Foto de perfil" />
         </div>
         <InfoBiografiaEs />
-        <p className={styles.curriculumDots}>..........................................</p>
+        <InfoIdiomasEs />
         <InfoContactEs />
-        <div className={styles.qrConteiner}>
-            <img className={styles.qrCode} src="src\Pictures\QR.png" alt="QR Code" />
+        <div className='my-3 flex justify-center'>
+            <img className='w-3/5' src="src\Pictures\QR.png" alt="QR Code" />
         </div>
     </div>
   )

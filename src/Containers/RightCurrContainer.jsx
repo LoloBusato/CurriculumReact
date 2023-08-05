@@ -3,29 +3,25 @@ import { Titles } from '../Functions/Titles';
 import { InfoEstudiosEs } from '../Usage/InfoEstudiosEs';
 import { InfoExperienciaEs } from '../Usage/InfoExperienciaEs';
 import { InfoIdiomasEs } from '../Usage/InfoIdiomasEs';
-let curriculumStudiesEs = "Estudiante de Licenciatura en Análisis de Sistemas";
-import styles from '../Styles/rightCurr.module.css'
 
+const curriculumStudiesEs = "Estudiante de Licenciatura en Análisis de Sistemas";
 export const RightCurrContainer = () => {
   return (
-    <div className="curriculumDer">
-        <div className={styles.curriculumHeader}>
-            <h1>LORENZO BUSATO</h1>
-            <p><i id="curriculum-studies">{curriculumStudiesEs}</i></p>
+    <div className="w-3/5  p-0">
+        <div className='mt-10 w-4/5 ml-10'>
+            <h1 className='text-6xl'>LORENZO BUSATO</h1>
+            <p className='text-md mt-1'><i>{curriculumStudiesEs}</i></p>
         </div>
-        <div id="lenguajes" className="mgt40">
-            <Titles text="LENGUAJES Y LIBRERIAS MANEJADAS" />
-            <div className={styles.curriculumParrafoLenguaje}>
-                <p><b>Analisis de Datos: </b>Python, Pandas, NumPy, Matplotlib, SeaBorn, Bash.</p>
-                <p><b>Bases de Datos: </b>MySQL, MongoDB, PostgreSQL.</p>
-                <p><b>Controlador de Versiones: </b>Git.</p>
-                <p><b>FrontEnd: </b>React.js, Tailwind, JavaScript, HTML, CSS, D3.</p>
-                <p><b>BackEnd: </b>Node.js, Express.js.</p>
+        <InfoExperienciaEs />
+        <InfoEstudiosEs />
+        <div id="lenguajes" className="mt-4">
+            <Titles text="LENGUAJES Y LIBRERIAS" />
+            <div className='w-4/5 ml-10 mt-2 '>
+                <p className='text-left'><b>Análisis de Datos: </b>Python, Bash</p>
+                <p className='mt-1 text-left'><b>Bases de Datos: </b>MySQL, MongoDB</p>
+                <p className='mt-1 text-left'><b>FullStack: </b>Git, React.js, Node.js, JavaScript</p>
             </div>
         </div>
-        <InfoEstudiosEs />
-        <InfoIdiomasEs />
-        <InfoExperienciaEs />
     </div>
   )
 }

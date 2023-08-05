@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Languages = ({ language, level }) => {
   return (
-    <p><b>{language}</b>{level}</p>
+    <p className='mt-1'><b>{language}</b>{level}</p>
   )
 }
