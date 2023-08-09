@@ -3,9 +3,8 @@ import { Paragraph } from '../Functions/Paragraph';
 import { Titles } from '../Functions/Titles'
 
 const biografiaEs = [
-  {text: "Soy una persona trabajadora que le encanta aprender y ayudar a los demás. Autodidacta y responsable."},
-  {text: "Me encuentro en busqueda de un puesto en el que pueda mejorar y aplicar mis conocimientos de programación."},
-  {text: "Cuento con 3 años de experiencia como Técnico en Electrónica y 1 año como programador web."},
+  {text: "Soy una persona comprometida, autodidacta  y responsable, con una pasión por el aprendizaje y la colaboración. Mi entusiasmo por la programación y la electrónica me ha llevado a una trayectoria de un año como Programador Web y tres años como Técnico en Electrónica."},
+  {text: "Mi objetivo es encontrar un entorno donde pueda mejorar y utilizar mis habilidades técnicas para contribuir y seguir creciendo como profesional."}
   ];
 
 export const InfoBiografiaEs = () => {

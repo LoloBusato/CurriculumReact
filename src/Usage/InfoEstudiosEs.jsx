@@ -3,8 +3,8 @@ import { CoursesInfo } from '../Functions/CoursesInfo';
 import { Titles } from '../Functions/Titles'
 
 const objEstudiosEs = [
-    {title: "LICENCIATURA EN ANÁLISIS DE SISTEMAS", place: "2022-actualidad", info: "Universidad de Buenos Aires"},
-    {title: "TÉCNICO EN ELECTRÓNICA", place: "2015-2020", info: 'Escuela Técnica N°28 D.E. 10 "República Francesa"'}
+    {title: "LICENCIATURA EN ANÁLISIS DE SISTEMAS", place: "2022 - actualidad | Universidad de Buenos Aires", info: ""},
+    {title: "TÉCNICO EN ELECTRÓNICA", place: '2015 - 2020 | Escuela Técnica "República Francesa"', info: ''}
   ];
 
 export const InfoEstudiosEs = () => {

@@ -1,11 +1,10 @@
 * {
   color: black;
-  text-align: justify;
 }
 #root {
   margin: 0 auto;
   background-color: #F1F6F9;
-  width: 795px;
+  width: 800px;
   font-size: medium;
 }
 body {
